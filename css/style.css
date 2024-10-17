@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nerko+One&display=swap");
+/* font-family: "Nerko One", cursive; */
+/* font-family: "Kanit", sans-serif; */
+/* სტილები სათაურისთვის */
+.header {
+  width: 1440px;
+  background-color: #2a9d8f;
+  margin: auto;
+  padding: 38px 130px;
+}
+/* ფოტოს ა ტეგის სტილი */
+.link_class {
+  vertical-align: middle;
+  display: inline-block;
+}
+/* სათაურის ფოტოს სტილ */
+.img_class {
+  width: 100%;
+  height: 100%;
+}
+/* მთლიანი ნავიგაციის ბარის სტილი */
+.nav_class {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 697px;
+}
+/* ნავიგაციის ლისთის სტილი */
+.nav_li {
+  display: inline-block;
+}
+/* ნავიგაციის ბარის სათაურების დასაშორებელი სტილი */
+.nav_li_margin {
+  margin-inline: 76px;
+}
+/* ნავიგაციის ბარის აქტიური და არააქტიური სათაურების სტილები */
+.inactive,
+.active {
+  font-family: "Nerko One", cursive;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.005em;
+  color: white;
+}
+
+.active {
+  color: #ffffff;
+}
+.inactive {
+  color: #ffffff;
+}
+
+.nav_li :hover {
+  color: green;
+}
+
+/* მთავარი სექციის სტილი  */
+.main_section {
+  width: 1440px;
+  background-color: #d4f3f0;
+  margin: auto;
+  padding: 80px 130px;
+}
+/* ქავერის ფოტოს სტილი */
+.cover_img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 116px;
+}
+
+/* პატარა სექციის სტილი */
+.small_sec {
+  width: 460px;
+  /* background-color: red; */
+  display: inline-block;
+  vertical-align: middle;
+}
+/* პატარა სექციაში სათაურის სტილი */
+.small_sec_header {
+  font-family: "Kanit", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  color: #06686e;
+  margin-bottom: 28px;
+}
+/* პატარა სექციაში ტექსტის სტილი  */
+.small_sec_text {
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 275;
+  line-height: 27px;
+  letter-spacing: 0.005em;
+  color: #06686e;
+}
+/* ღილაკის სტილი */
+.read_more {
+  font-family: "Kanit", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 275;
+  line-height: 24px;
+  border: none;
+  width: 112px;
+  height: 46px;
+  background-color: #2a9d8f;
+  margin-top: 56px;
+}
+/* არტიკლი სტილი   */
+.for_article {
+  width: 1180px;
+  margin: 80px auto;
+  /* background-color: blue; */
+}
+
+/* არტიკლის სათაურის სტილი */
+.article_header {
+  font-family: "Kanit", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.005em;
+  color: #06686e;
+  text-align: center;
+  margin-bottom: 28px;
+}
+/* არტიკლის ტექსტის სტილი */
+.article_text {
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  font-weight: 275;
+  line-height: 36px;
+  letter-spacing: 0.005em;
+  text-align: justified;
+  color: #06686e;
+}
+/* ფუტერის სტილი  */
+.for_footer {
+  width: 1440px;
+  background-color: #2a9d8f;
+  margin: auto;
+  padding: 38px 636px;
+}
+/* ფუტერის სათაურის სტილი  */
+.footer_header {
+  font-family: "Kanit", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+
+/* ფუტერის ნავიგაციის ლისთის სტილი */
+.footer_nav_li {
+  display: inline-block;
+}
+/* ფუტერის ნავიგაციის ბარის აიქონების დასაშორებელი სტილი */
+.li_margin_insta {
+  margin-inline: 28px;
+}
+.li_margin_x {
+  margin-right: 28px;
+}
